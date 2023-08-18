@@ -24,6 +24,7 @@ helm install grafana grafana/grafana
 ```
 
 Get the password of the gafana 
+
 ###
 ```
 kubectl get secret — namespace default grafana -o yaml
@@ -40,4 +41,9 @@ Check the dashboard by changing the ports
 kubectl port-forward svc/grafana 8090:80 --address 0.0.0.0
 
 ```
+
+Add the prometheus in the gfrafana dashboard 
+![image](https://github.com/nibatandukar/grafana-prometheus/assets/16404816/86c3e4ec-67c8-48d0-a349-c1511c47e1b7)
+
+
 
