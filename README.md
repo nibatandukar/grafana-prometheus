@@ -51,5 +51,17 @@ prometheus-server                     ClusterIP   10.43.211.117   <none>        
 
 ![plot](./images/dashboar-cluster-IP.png)
 
+### Add one dashboard
+Add the dashboard and copy the ID 12740
+https://grafana.com/grafana/dashboards/12740-kubernetes-monitoring/
+
+![plot](./images/dashboard1.png)
+
+
+
+![plot](./images/dashboard.png)
+
+
+
 
 
