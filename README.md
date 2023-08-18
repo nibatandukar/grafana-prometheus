@@ -44,6 +44,7 @@ kubectl port-forward svc/grafana 8090:80 --address 0.0.0.0
 
 Add the prometheus in the gfrafana dashboard 
 ![image](https://github.com/nibatandukar/grafana-prometheus/assets/16404816/86c3e4ec-67c8-48d0-a349-c1511c47e1b7)
+![plot](./images/dashboar-cluster-IP.png)
 
 
 
