@@ -33,3 +33,11 @@ echo “password_value” | openssl base64 -d ; echo
 echo “username_value” | openssl base64 -d ; echo
 ```
 ###
+
+Check the dashboard by changing the ports
+
+```
+kubectl port-forward svc/grafana 8090:80 --address 0.0.0.0
+
+```
+
