@@ -38,11 +38,12 @@ echo “username_value” | openssl base64 -d ; echo
 Check the dashboard by changing the ports
 
 ```
-kubectl port-forward svc/grafana 8090:80 --address 0.0.0.0
+kubectl port-forward svc/grafana 8090:80 --address 0.0.0.0 
 
 ```
 
 Add the prometheus in the gfrafana dashboard. Addthe service name and the service port.
+hhtp://<prometheus-server-name>:<port>
 
 ```
 Kubectl get svc
@@ -60,6 +61,12 @@ https://grafana.com/grafana/dashboards/12740-kubernetes-monitoring/
 Import and Save the Dashboard.
 
 ![plot](./images/dashboard.png)
+
+### Generating the Webhook of the Slack.
+
+Go to app and create  a new slack notifications webhooks.
+
+![plot](./images/slack.png)
 
 
 ###
