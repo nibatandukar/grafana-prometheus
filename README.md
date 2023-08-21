@@ -583,7 +583,10 @@ metadata:
 
 ### Referneces
 https://artifacthub.io/packages/helm/prometheus-community/prometheus
+
 https://medium.com/globant/setup-prometheus-and-grafana-monitoring-on-kubernetes-cluster-using-helm-3484efd85891
+
 https://grafana.com/blog/2020/02/25/step-by-step-guide-to-setting-up-prometheus-alertmanager-with-slack-pagerduty-and-gmail/
+
 https://samber.github.io/awesome-prometheus-alerts/rules#kubernetes
 
