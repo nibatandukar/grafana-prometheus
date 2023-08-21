@@ -89,7 +89,7 @@ data:
     receivers:
     - name: 'slack-notifications'
       slack_configs:
-      - channel: '#slack-notification-test'
+      - channel: '#<add here the name of the slack channel>'
         send_resolved: true
         icon_url: https://avatars3.githubusercontent.com/u/3380462
         icon_emoji: ':fire:'
