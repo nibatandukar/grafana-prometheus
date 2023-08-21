@@ -69,8 +69,7 @@ Go to app and create  a new slack notifications webhooks.
 ![plot](./images/slack.png)
 
 
-###
-####Changing the configmap of the with the Slack Configuration.Add the Webhook URL of the slack_api_url: '<add you webhook>' and also add the channel name in channel: '#<slack-channel-name>'
+#### Changing the configmap of the with the Slack Configuration.Add the Webhook URL of the slack_api_url: '<add you webhook>' and also add the channel name in channel: '#<slack-channel-name>'
 
 ```
 kubectl get cm prometheus-alertmanager -o yaml
@@ -581,4 +580,10 @@ metadata:
   uid: b0fa3485-4eb2-4c23-82cb-a397b9272e46
 
 ```
+
+### Referneces
+https://artifacthub.io/packages/helm/prometheus-community/prometheus
+https://medium.com/globant/setup-prometheus-and-grafana-monitoring-on-kubernetes-cluster-using-helm-3484efd85891
+https://grafana.com/blog/2020/02/25/step-by-step-guide-to-setting-up-prometheus-alertmanager-with-slack-pagerduty-and-gmail/
+https://samber.github.io/awesome-prometheus-alerts/rules#kubernetes
 
